@@ -1,0 +1,204 @@
+{
+ "raw": 5574,
+ "clean": 5171,
+ "ham": 4518,
+ "spam": 653,
+ "len_ham": 70.89486498450641,
+ "len_spam": 137.71056661562022,
+ "top_spam": [
+  [
+   "free",
+   195
+  ],
+  [
+   "txt",
+   134
+  ],
+  [
+   "ur",
+   119
+  ],
+  [
+   "stop",
+   111
+  ],
+  [
+   "mobile",
+   109
+  ],
+  [
+   "text",
+   108
+  ],
+  [
+   "claim",
+   96
+  ],
+  [
+   "reply",
+   96
+  ],
+  [
+   "www",
+   83
+  ],
+  [
+   "prize",
+   82
+  ],
+  [
+   "just",
+   68
+  ],
+  [
+   "cash",
+   65
+  ]
+ ],
+ "top_ham": [
+  [
+   "gt",
+   288
+  ],
+  [
+   "lt",
+   287
+  ],
+  [
+   "just",
+   282
+  ],
+  [
+   "ok",
+   256
+  ],
+  [
+   "ll",
+   233
+  ],
+  [
+   "got",
+   227
+  ],
+  [
+   "know",
+   226
+  ],
+  [
+   "like",
+   224
+  ],
+  [
+   "good",
+   217
+  ],
+  [
+   "come",
+   214
+  ],
+  [
+   "ur",
+   203
+  ],
+  [
+   "time",
+   193
+  ]
+ ],
+ "train": 4136,
+ "test": 1035,
+ "best": "Multinomial Naive Bayes",
+ "cm": [
+  [
+   901,
+   3
+  ],
+  [
+   14,
+   117
+  ]
+ ],
+ "report": {
+  "ham": {
+   "precision": 0.9846994535519126,
+   "recall": 0.9966814159292036,
+   "f1-score": 0.9906542056074766,
+   "support": 904.0
+  },
+  "spam": {
+   "precision": 0.975,
+   "recall": 0.8931297709923665,
+   "f1-score": 0.9322709163346613,
+   "support": 131.0
+  },
+  "accuracy": 0.9835748792270531,
+  "macro avg": {
+   "precision": 0.9798497267759563,
+   "recall": 0.9449055934607851,
+   "f1-score": 0.961462560971069,
+   "support": 1035.0
+  },
+  "weighted avg": {
+   "precision": 0.9834717932472744,
+   "recall": 0.9835748792270531,
+   "f1-score": 0.9832646298637676,
+   "support": 1035.0
+  }
+ },
+ "mis": [
+  [
+   "Check Out Choose Your Babe Videos @ sms.shsex.netUN fgkslpoPW fgkslpo",
+   "spam"
+  ],
+  [
+   "Burger King - Wanna play footy at a top stadium? Get 2 Burger King before 1st Sept and go Large or Super with ",
+   "spam"
+  ],
+  [
+   "Nokia phone is lovly..",
+   "ham"
+  ],
+  [
+   "Xmas & New Years Eve tickets are now on sale from the club, during the day from 10am till 8pm, and on Thurs, F",
+   "spam"
+  ],
+  [
+   "ringtoneking 84484",
+   "spam"
+  ],
+  [
+   "Babe: U want me dont u baby! Im nasty and have a thing 4 filthyguys. Fancy a rude time with a sexy bitch. How ",
+   "spam"
+  ]
+ ],
+ "lr_top": [
+  "txt",
+  "uk",
+  "mobile",
+  "www",
+  "50",
+  "claim",
+  "reply",
+  "150p",
+  "won",
+  "com"
+ ],
+ "demo": [
+  [
+   "Congratulations! You have won a free prize. Call 09061701461 now to claim",
+   "spam"
+  ],
+  [
+   "Hey, are we still meeting for lunch at 1?",
+   "ham"
+  ],
+  [
+   "URGENT! Your mobile number has been selected for a 2000 cash award, txt WIN to 80086",
+   "spam"
+  ],
+  [
+   "Can you send me the notes from today's lecture?",
+   "ham"
+  ]
+ ]
+}
